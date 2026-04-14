@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MR Mohamed Rilan | Portfolio</title>
+  <meta name="description" content="MR Mohamed Rilan — Data Analytics & UI/UX Portfolio" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Animated background -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg__blob bg__blob--a"></div>
+    <div class="bg__blob bg__blob--b"></div>
+    <div class="bg__grid"></div>
+  </div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#top">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">MR Mohamed Rilan</span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+          <span class="nav__bars" aria-hidden="true"></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+
+        <ul class="nav__menu" id="navMenu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certs">Certificates</a></li>
+          <li><a href="#gallery">Photography</a></li>
+          <li><a class="btn btn--small" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__left">
+          <div class="pill reveal">
+            <span class="pill__dot" aria-hidden="true"></span>
+            Data Analytics • Power BI • UI/UX • Python • SQL
+          </div>
+
+          <h1 class="hero__title reveal">
+            Hi, I’m <span class="accent">MR Mohamed Rilan</span>
+          </h1>
+
+          <p class="hero__subtitle reveal">
+            Final-year <b>Business Information Systems (Hons)</b> undergraduate focused on
+            <b>Data Analytics</b> and <b>UI/UX</b>. I build dashboards, insights, and modern product designs.
+          </p>
+
+          <div class="hero__cta reveal">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btn--ghost" href="#contact">Let’s Talk</a>
+          </div>
+
+          <div class="hero__stats reveal">
+            <div class="statCard">
+              <div class="statCard__k">Location</div>
+              <div class="statCard__v">Gangodawilla, Nugegoda</div>
+            </div>
+            <div class="statCard">
+              <div class="statCard__k">Phone</div>
+              <a class="statCard__v" href="tel:+94752127759">+94 75 212 7759</a>
+            </div>
+            <div class="statCard">
+              <div class="statCard__k">Email</div>
+              <a class="statCard__v" href="mailto:rilanmohamed0206@gmail.com">rilanmohamed0206@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero__right">
+          <div class="card card--glow reveal tilt">
+            <div class="card__head">
+              <h2 class="card__title">Quick Highlights</h2>
+              <span class="chip">Open to internships</span>
+            </div>
+
+            <ul class="featureList">
+              <li>
+                <span class="featureList__icon">📊</span>
+                <div>
+                  <div class="featureList__title">Dashboards & Reporting</div>
+                  <div class="featureList__desc">Excel, Power BI, Tableau (KPIs + storytelling)</div>
+                </div>
+              </li>
+              <li>
+                <span class="featureList__icon">🧠</span>
+                <div>
+                  <div class="featureList__title">Analytics</div>
+                  <div class="featureList__desc">Python, SQL/MySQL, data cleaning & insights</div>
+                </div>
+              </li>
+              <li>
+                <span class="featureList__icon">🎨</span>
+                <div>
+                  <div class="featureList__title">UI/UX</div>
+                  <div class="featureList__desc">Figma, wireframes, prototypes, UX research</div>
+                </div>
+              </li>
+            </ul>
+
+            <div class="card__footer">
+              <a class="btn btn--small btn--ghost" id="githubLink" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn--small" id="linkedinLink" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>About</h2>
+          <p>Professional overview + education.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <div class="card reveal tilt">
+            <h3>Professional Overview</h3>
+            <p class="muted">
+              I’m a final-year BIS (Hons) undergraduate with strong focus on data analytics and data science.
+              Skilled in Python, SQL, Advanced Excel, Power BI, Tableau, and data visualization.
+              I’m also trained in UI/UX design using Figma and user-centered design principles.
+            </p>
+            <div class="tags">
+              <span class="tag">Data Analyst</span>
+              <span class="tag">Business Analyst (Finance)</span>
+              <span class="tag">BI / Reporting</span>
+              <span class="tag">UI/UX</span>
+            </div>
+          </div>
+
+          <div class="card reveal tilt">
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li>
+                <div class="timeline__title">BSc. Business Information Systems (Hons)</div>
+                <div class="timeline__meta">University of Sri Jayewardenepura • 2022 – Present</div>
+              </li>
+              <li>
+                <div class="timeline__title">GCE Advanced Level</div>
+                <div class="timeline__meta">Mannar Murunkan Central College • 2019 – 2021/22</div>
+              </li>
+              <li>
+                <div class="timeline__title">GCE Ordinary Level</div>
+                <div class="timeline__meta">Puttalam/K/Al-Aqsha National School • 2018</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Skills</h2>
+          <p>Tools I use for analytics and design.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card reveal tilt">
+            <h3>Data & BI</h3>
+            <div class="pillRow">
+              <span>Advanced Excel</span><span>Power BI</span><span>Tableau</span><span>Data Visualization</span>
+            </div>
+          </div>
+
+          <div class="card reveal tilt">
+            <h3>Programming</h3>
+            <div class="pillRow">
+              <span>Python</span><span>SQL / MySQL</span><span>HTML</span><span>CSS</span>
+            </div>
+          </div>
+
+          <div class="card reveal tilt">
+            <h3>UI/UX</h3>
+            <div class="pillRow">
+              <span>Figma</span><span>User Research</span><span>Wireframing</span><span>Prototyping</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Projects</h2>
+          <p>Click “View on GitHub” to open the full project.</p>
+        </div>
+
+        <div class="grid grid--2">
+          <article class="card project reveal tilt">
+            <div class="project__top">
+              <div>
+                <h3>Sales Analytics Dashboard</h3>
+                <p class="muted">Excel + Power BI</p>
+              </div>
+              <span class="badge">Analytics</span>
+            </div>
+            <p class="project__desc">
+              Cleaned and prepared sales data in Excel, created KPIs, built visuals in Power BI, and generated insights.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" target="_blank" rel="noreferrer"
+                 href="https://github.com/mrmrilan/sales-dashboard-powerbi">View on GitHub</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Request Demo</a>
+            </div>
+          </article>
+
+          <article class="card project reveal tilt">
+            <div class="project__top">
+              <div>
+                <h3>UI/UX Design Project: E-commerce App</h3>
+                <p class="muted">Figma • Prototyping</p>
+              </div>
+              <span class="badge">UI/UX</span>
+            </div>
+            <p class="project__desc">
+              Designed a user-centered mobile app interface focusing on usability and visual appeal.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" target="_blank" rel="noreferrer"
+                 href="https://github.com/mrmrilan/Air-Travel-UI-Design">View on GitHub</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Ask Details</a>
+            </div>
+          </article>
+
+          <article class="card project reveal tilt">
+            <div class="project__top">
+              <div>
+                <h3>GenAI-Powered Customer Delinquency Risk Analysis</h3>
+                <p class="muted">GenAI + Analytics</p>
+              </div>
+              <span class="badge">GenAI</span>
+            </div>
+            <p class="project__desc">
+              Risk analysis project using GenAI-supported insights for decision-making and reporting.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" target="_blank" rel="noreferrer"
+                 href="https://github.com/mrmrilan/GenAI-Powered-Customer-Delinquency-Risk-Analysis">View on GitHub</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Walkthrough</a>
+            </div>
+          </article>
+
+          <article class="card project reveal tilt">
+            <div class="project__top">
+              <div>
+                <h3>Netflix Dashboard Project</h3>
+                <p class="muted">Power BI</p>
+              </div>
+              <span class="badge">Power BI</span>
+            </div>
+            <p class="project__desc">
+              Built an interactive dashboard with KPI cards, visuals, slicers, and navigation features.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" target="_blank" rel="noreferrer"
+                 href="https://github.com/mrmrilan/Netflix-Dashboard-Project-Power-BI">View on GitHub</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Get Report</a>
+            </div>
+          </article>
+
+          <article class="card project reveal tilt">
+            <div class="project__top">
+              <div>
+                <h3>Mini UX Project – LankaPropertyWeb Redesign</h3>
+                <p class="muted">University Group Assignment</p>
+              </div>
+              <span class="badge">UX</span>
+            </div>
+            <p class="project__desc">
+              Improved Login/Registration and ROI Calculator flows using interviews, personas, empathy maps,
+              journey maps, and interactive prototypes. Enhanced accessibility and navigation.
+            </p>
+            <div class="project__actions">
+              <a class="btn btn--small" target="_blank" rel="noreferrer"
+                 href="https://github.com/mrmrilan/lankaproperty-ux-redesign">View on GitHub</a>
+              <a class="btn btn--small btn--ghost" href="#contact">Case Study</a>
+            </div>
+          </article>
+		  
+		  <article class="card project reveal tilt">
+  <div class="project__top">
+    <div>
+      <h3>Food Delivery Mobile App UI/UX</h3>
+      <p class="muted">Figma • Mobile App Design</p>
+    </div>
+    <span class="badge">UI/UX</span>
+  </div>
+
+  <p class="project__desc">
+    Designed a user-friendly food delivery mobile app with login/signup, product browsing,
+    cart system, and clean navigation. Focused on usability and engaging UI.
+  </p>
+
+  <div class="project__actions">
+    <a class="btn btn--small" target="_blank" rel="noreferrer"
+       href="https://github.com/mrmrilan/Food-delivery-UIUX-design">
+       View on GitHub
+    </a>
+    <a class="btn btn--small btn--ghost" href="#contact">Ask Details</a>
+  </div>
+</article>
+
+          <article class="card reveal tilt">
+            <h3>What’s next?</h3>
+            <p class="muted">
+              I’m currently building more dashboards and case studies. If you have an internship or project opportunity,
+              contact me.
+            </p>
+            <a class="btn btn--small" href="#contact">Contact</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section" id="certs">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Certificates</h2>
+          <p>Paste your certificate links in <b>script.js</b> and they will show here automatically.</p>
+        </div>
+
+        <div class="card reveal tilt">
+          <div class="certGrid" id="certGrid"></div>
+          <p class="tiny muted" style="margin:12px 0 0;">
+            Verified certifications in data analytics, AI, and UI/UX design.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHOTOGRAPHY / SOCIAL NETWORKS (like your screenshot) -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Photography</h2>
+          <p>Social networks • Events • University activities</p>
+        </div>
+
+        <div class="grid grid--4">
+          <!-- Replace image src with your real images (jpg/png/webp) -->
+          <figure class="photoCard reveal tilt">
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQG0EHm-gEdSMg/feedshare-shrink_1280/feedshare-shrink_1280/0/1711951874389?e=1777507200&v=beta&t=E3-9gtPWVuZ-LEyy9a2o4OP4_kLqyZukOVhw1Fe7_AM" alt="Annual General Meeting" />
+  <figcaption>
+    <b>Annual General Meeting</b>
+    <span>Muslim Majlis of University of Sri Jayewardenepura</span>
+  </figcaption>
+</figure>
+
+<figure class="photoCard reveal tilt">
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQEHuUQBeBiNtw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1733291238448?e=1777507200&v=beta&t=TZyOyemHpzKioq05GbwpaAayD9CSLM6bBVcyDyokpn0" alt="Field visit" />
+  <figcaption>
+    <b>Field visit</b>
+    <span>With BIS department team</span>
+  </figcaption>
+</figure>
+
+<figure class="photoCard reveal tilt">
+  <img src="https://scontent-bom5-2.xx.fbcdn.net/v/t39.30808-6/619346225_871082918876114_7437269833907778834_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=7b2446&_nc_eui2=AeEcHPqyU4WU_HORT6raUO_lxFl0HGXj1rLEWXQcZePWsk-R8s8Rt9_7MbxUMGScjkz_ACiNr8dBMbAimEIdGWAa&_nc_ohc=-3DrMLnjQYgQ7kNvwHw7jHl&_nc_oc=AdrtIEDUl5crsLIjVaxb8EIjuTwKWOS5j1UOVS3w3bslEbxNDpwPpcRpr2Vxt4OLAZg&_nc_zt=23&_nc_ht=scontent-bom5-2.xx&_nc_gid=Z_MWHHCXjkGfNP50sRKMcw&_nc_ss=7a3a8&oh=00_Af0jS-LKQjzCbp3QeYSkmFXfPX_m5FOYcdEyR7Lay4Vo3Q&oe=69E2D005" alt="Social event" />
+  <figcaption>
+    <b>Social event</b>
+    <span>With Management Faculty</span>
+  </figcaption>
+</figure>
+
+<figure class="photoCard reveal tilt">
+  <img src="https://media.licdn.com/dms/image/v2/D5622AQFiVkzHyaBYnw/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1729479532361?e=1777507200&v=beta&t=DNCZob-ASLBfjFO2TaSGtOscf4-K2YHT29YzAF5H4DQ" alt="Community service" />
+  <figcaption>
+    <b>Community service</b>
+    <span>Coastal clean-up activity</span>
+  </figcaption>
+</figure>
+        </div>
+
+        <p class="tiny muted reveal" style="margin-top:12px;">
+            Highlights from university events, field visits, and community activities.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <h2>Contact</h2>
+          <p>Internships • Freelance • Collaborations</p>
+        </div>
+
+        <div class="grid grid--2">
+		
+          <div class="card reveal tilt">
+            <h3>Direct</h3>
+            <div class="contact">
+              <a class="contact__row" href="https://mail.google.com/mail/?view=cm&fs=1&to=rilanmohamed0206@gmail.com"
+target="_blank">
+                <span>📩</span><span>Email</span><b>rilanmohamed0206@gmail.com</b>
+              </a>
+              <a class="contact__row" href="tel:+94752127759">
+                <span>📞</span><span>Phone</span><b>+94 75 212 7759</b>
+              </a>
+			  
+			  <a class="btn whatsapp-btn" href="https://wa.me/94702680700" target="_blank">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+  WhatsApp Me
+</a>
+			  
+              <div class="contact__row">
+                <span>📍</span><span>Location</span><b>Nugegoda, Sri Lanka</b>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal tilt">
+            <h3>Quick Message</h3>
+            <form class="form" id="contactForm">
+              <label>
+                Name
+                <input required name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input required type="email" name="email" placeholder="name@email.com" />
+              </label>
+              <label>
+                Message
+                <textarea required name="message" rows="5" placeholder="Tell me about the role/project..."></textarea>
+              </label>
+              <button class="btn" type="submit">Send (opens email)</button>
+              <p class="tiny muted" id="formHint" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year"></span> MR Mohamed Rilan</p>
+      <a class="muted" href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
